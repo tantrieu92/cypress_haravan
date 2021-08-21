@@ -1,0 +1,32 @@
+[
+  {
+    "TEST SCENARIO IDENTIFICATION": "Testcase_1",
+    "Title": "Verify email address is properly formatted ",
+    "Email": "nguyen.nguyenthithao@haravan.com",
+    "Password": "@123456"
+  },
+  {
+    "TEST SCENARIO IDENTIFICATION": "Testcase_2",
+    "Title": "Verify email address is incorrect formatted ",
+    "Email": "nguyen.nguyenthithao@haravan.com.vn",
+    "Password": "@123456"
+  },
+  {
+    "TEST SCENARIO IDENTIFICATION": "Testcase_4",
+    "Title": "Verify password address is properly formatted ",
+    "Email": "nguyen.nguyenthithao@haravan.com",
+    "Password": "@123456"
+  },
+  {
+    "TEST SCENARIO IDENTIFICATION": "Testcase_5",
+    "Title": "Verify password address is incorrect formatted ",
+    "Email": "nguyen.nguyenthithao@haravan.com",
+    "Password": "@123456"
+  },
+  {
+    "TEST SCENARIO IDENTIFICATION": "Testcase_6",
+    "Title": "Verify password address is over length",
+    "Email": "nguyen.nguyenthithao@haravan.com",
+    "Password": "@123456"
+  }
+]

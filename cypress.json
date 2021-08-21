@@ -1,0 +1,25 @@
+{
+    "reporter": "cypress-multi-reporters",
+    "defaultCommandTimeout": 20000,
+    "requestTimeout": 30000,
+  
+    "nodeVersion": "system",
+    "reporterOptions": {
+      "configFile": "reporter-config.json",
+      "reportDir": "cypress/results",
+      "overwrite": true,
+      "html": false,
+      "json": true
+    },
+    "trashAssetsBeforeRuns": false,
+    "video": false,
+    "env": {
+      "fromTestCase": 1,
+      "toTestCase": 1,
+      "fileName": "SampleData.xlsx",
+      "sheet": "Login",
+      "pathFileJson": ""
+    },
+    "viewportWidth": 1200,
+    "viewportHeight": 1000
+  }
